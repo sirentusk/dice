@@ -1,0 +1,3 @@
+https://dice.sirenwatcher.dev/
+https://dice.sirenwatcher.dev/images/dice.png
+https://dice.sirenwatcher.dev/images/dice.svg

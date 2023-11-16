@@ -1,0 +1,55 @@
+
+py-script {
+    top: 0;
+    margin: 0;
+}
+
+py-terminal.py-terminal-docked .py-terminal {
+    background-color: transparent;
+    color: transparent;
+}
+
+h1 {
+    font-size: 48px;
+    background: linear-gradient(to right, red, blue, purple, blue, red);
+    -webkit-background-clip: text; /* Chromium */
+    -moz-background-clip: text; /* Gecko */
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: purple;
+    text-underline-offset: 10px;
+}
+
+p {
+    line-height: 3;
+}
+
+#dice {
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 3;
+    letter-spacing: 2px;
+    padding: 100px 0px 100px 0px;
+    text-shadow:
+    1px 0 0 grey, /* Outline right */
+    0 1px 0 grey, /* Outline top */
+    -1px 0 0 grey, /* Outline left */
+    0 -1px 0 grey, /* Outline bottom */
+    3px 3px 1px rgb(182, 182, 182), /* Shadow right */
+    3px 3px 1px rgb(182, 182, 182), /* Shadow top */
+    3px 3px 1px rgb(182, 182, 182), /* Shadow left */
+    3px 3px 1px rgb(182, 182, 182), /* Shadow bottom*/
+    4px 5px 5px rgba(0, 0, 0, 0.5), /* Shadow blur right */
+    1px 10px 10px rgba(0, 0, 0, 0.5), /* Shadow blur top */
+    1px 15px 30px rgba(0, 0, 0, 0.5), /* Shadow blur left */
+    1px 15px 30px rgba(0, 0, 0, 0.5); /* Shadow blur bottom*/
+}
+
+body {
+    background: rgb(255, 234, 189);
+}
